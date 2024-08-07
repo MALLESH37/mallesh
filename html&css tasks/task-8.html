@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Simple Image Gallery</h1>
+</header>
+
+<div class="gallery">
+   
+    <iframe src="https://images.pexels.com/photos/2412720/pexels-photo-2412720.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1" frameborder="0"></iframe>
+    <iframe src="https://images.pexels.com/photos/2079/nature-forest-waterfall-jungle.jpg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 2" frameborder="0"></iframe>
+    <iframe src="https://media.istockphoto.com/id/617886480/photo/ocelot.jpg?s=612x612&w=0&k=20&c=_zaUbnC8WpAcXUobNbc1X2jRToQlm6XT07gCu0VJGSM=" alt="Image 3" frameborder="0"></iframe>
+    <iframe src="https://media.istockphoto.com/id/1184028419/photo/jaguar-in-the-amazon-jungle.jpg?s=612x612&w=0&k=20&c=3E3dYJZzcZoaiP5PSXh0SLwjviQpHCEToR6C99wbx0E=" alt="Image 4" frameborder="0"></ifram" alt="Image 5" frameborder="0"></iframe>
+    <iframe src="https://img.freepik.com/premium-photo/beautiful-nature-background-wallpaper_783884-4514.jpg" alt="Image 6" frameborder="0"></iframe>
+</div>
+
+<footer>
+    <p>© 2024 Simple Image Gallery</p>
+</footer>
+
+</body>
+</html>
